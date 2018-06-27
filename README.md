@@ -1,3 +1,5 @@
+レコードしないでプレイだけの機能を使用するてめにAndroidのレコード権限を消したバージョンです。
+
 ---
 title: Media
 description: Record and play audio on the device.
@@ -557,7 +559,7 @@ function recordAudio() {
 
 This plugins requires the following usage description:
 
-* `NSMicrophoneUsageDescription` describes the reason that the app accesses the user's microphone. 
+* `NSMicrophoneUsageDescription` describes the reason that the app accesses the user's microphone.
 
 To add this entry into the `info.plist`, you can use the `edit-config` tag in the `config.xml` like this:
 
